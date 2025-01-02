@@ -62,3 +62,7 @@
 .accordion-button:not(.collapsed)::after {
     background-image: none;
 }
+
+.accordion-button:focus {
+    box-shadow: none;
+}
