@@ -1,0 +1,40 @@
+body {
+    background-color: #1F1F1F;
+}
+
+.myContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.my-text {
+    color: #9B9B9B;
+}
+
+.my-text-2 {
+    color: #7C7C7C;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.my-card {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 15px;
+}
+
+.bg-success {
+    background-color: #34E450;
+    color: white;
+}
+
+.my-text-success {
+    color: #34E450;
+}
+
+.radius-circle {
+    border-radius: 50%;
+}

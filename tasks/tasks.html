@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="/vendors/Font Awesome/all.min.css">
+    <!-- BOOTSTRAP RTL -->
+    <link rel="stylesheet" href="/vendors/Bootstrap/bootstrap.rtl.min.css">
+    <!-- DARK STYLING -->
+    <!-- <link rel="stylesheet" href="tasksDark.css"> -->
+    <!-- LIGHT STYLING -->
+    <link rel="stylesheet" href="tasksLight.css">
+</head>
+
+<body>
+    <div class="myContainer mt-5">
+        <h3 class="text-light fw-light">مهام اليوم <span class="fw-bold">(<span
+                    class="my-text-success">3</span>/4)</span></h3>
+
+        <div class="my-card d-flex align-items-center position-relative mb-3">
+            <div class="position-absolute item-category">
+                <span><i class="fa-solid fa-book"></i> شرح</span>
+            </div>
+            <h1 class="me-2 my-text-2 fw-bolder">1</h1>
+            <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="w-35 me-2 position-relative">
+                        <button class="playBtn position-absolute"><i class="fa-solid fa-play"></i></button>
+                        <img src="/imgs/1.webp" class="img-fluid" alt="">
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="m-0 my-text fs-14">الدرس الأول
+                        </p>
+                        <p class="m-0 text-light">أحمد شوقي وجيل التطوير</p>
+                    </div>
+                </div>
+                <div class="categories">
+                    <span class="fs-13">#مدرسة_الشعر_الحديث</span>
+                    <span class="fs-13">#أمير_الشعراء</span>
+                    <span class="fs-13">#الشعر_العربي</span>
+                </div>
+            </div>
+        </div>
+        <div class="my-card d-flex align-items-center position-relative mb-3">
+            <div class="col-2 position-absolute check-status">
+                <i class="fa-solid fa-check bg-success p-2 radius-circle"></i>
+            </div>
+            <div class="position-absolute item-category">
+                <span><i class="fa-solid fa-book"></i> تدريب</span>
+            </div>
+            <h1 class="me-2 my-text-2 fw-bolder">2</h1>
+            <div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="w-35 me-2 position-relative">
+                        <img src="/imgs/1.webp" class="img-fluid" alt="">
+                        <div class="position-absolute done">
+                            <p class="text-dark">اكتملت</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="m-0 my-text fs-14">الدرس الأول
+                        </p>
+                        <p class="m-0 text-light">أحمد شوقي وجيل التطوير</p>
+                    </div>
+                </div>
+                <div class="categories">
+                    <span class="fs-13">#مدرسة_الشعر_الحديث</span>
+                    <span class="fs-13">#أمير_الشعراء</span>
+                    <span class="fs-13">#الشعر_العربي</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../vendors/Bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

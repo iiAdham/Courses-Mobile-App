@@ -1,0 +1,64 @@
+.myContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.my-text {
+    color: #9B9B9B;
+}
+
+.my-text-2 {
+    color: #7C7C7C;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.progress {
+    height: 10px;
+    padding: 1px;
+    margin-top: -6px;
+    z-index: 999;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: purple;
+    border-radius: 0.375rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black
+}
+
+.accordion-button::after {
+    background-image: none;
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: auto;
+    transition: var(--bs-accordion-btn-icon-transition);
+    color: black;
+    font-size: 1rem;
+}
+
+.accordion-item {
+    background-color: transparent;
+}
+
+.text-light {
+    color: black !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
