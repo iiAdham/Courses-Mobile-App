@@ -15,6 +15,10 @@ body {
     color: #7C7C7C;
 }
 
+.my-text-success {
+    color: #34E450;
+}
+
 .fs-13 {
     font-size: 13px;
 }

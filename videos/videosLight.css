@@ -41,7 +41,7 @@
     content: "\f078";
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-    margin-right: auto;
+    margin: 0 auto auto 0;
     transition: var(--bs-accordion-btn-icon-transition);
     color: black;
     font-size: 1rem;
